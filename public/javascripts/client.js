@@ -142,7 +142,7 @@ function pickRandomProperty() {
     console.log(result.Navn);
   $("#mad").html(
       "Vi skal have " +
-      "<a href='https://www.google.dk/search?q="+ result.Navn + "'>" +
+      "<a href='https://www.bing.com/images/search?q="+ result.Navn + "' target='opskrifter'>" +
       result.Navn +
       "</a>" + 
       "."
